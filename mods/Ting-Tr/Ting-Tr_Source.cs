@@ -11,7 +11,7 @@ using UnityEngine;
 using Newtonsoft.Json;
 
 [assembly: MelonInfo(typeof(AssetDownloaderMod.AssetDownloader), "Ting-Tr", "1.0.0", "SkipperSkip")]
-[assembly: MelonGame(null, null)] // Replace with your game's company and name
+[assembly: MelonGame("DrawMeAPixel", "Ting")]
 
 namespace AssetDownloaderMod
 {
