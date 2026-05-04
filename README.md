@@ -11,7 +11,7 @@
 ### Yöntem 1: Otomatik Yükleyici (Tavsiye Edilen)
 
 1. **Yükleyiciyi İndirin**  
-   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases) en son `TingTR_Installer.exe` dosyasını indirin.
+   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases/tag/kurulum) en son `TingTR_Installer.exe` dosyasını indirin.
 
 2. **Yükleyiciyi Çalıştırın**  
    `TingTR_Installer.exe` dosyasına çift tıklayın.
@@ -37,7 +37,7 @@
    MelonLoader kurulumundan sonra oyunu bir kez başlatın. Bu, `Mods` klasörünü oluşturacaktır.
 
 3. **Mod Dosyasını İndirin**  
-   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases/1.0) `Mods.rar` dosyasını indirin.
+   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases/tag/v1.0) `Mods.rar` dosyasını indirin.
 
 4. **Modu Kurun**  
    `Mods.rar` dosyasının içindekileri oyun klasörünüzdeki `Mods` klasörüne çıkarın.
