@@ -8,18 +8,49 @@
 
 ## Kurulum
 
-1. **MelonLoader'ın yüklü olduğundan emin olun**  
-   Eğer yüklü değilse [MelonLoader Github sayfası](https://github.com/LavaGang/MelonLoader/) üzerinden indirip kurulumunuzu gerçekleştirebilirsiniz.
+### Yöntem 1: Otomatik Yükleyici (Tavsiye Edilen)
 
-2. **Mod dosyasını indirin**  
-   [Bu linkten](https://github.com/SkipperSkipTR/ting-tr/releases/latest) mod dosyalarının son versiyonunu indirebilirsiniz.
+1. **Yükleyiciyi İndirin**  
+   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases) en son `TingTR_Installer.exe` dosyasını indirin.
 
-3. **Rar dosyasını MelonLoader mods klasörüne çıkartın**  
-   Melonloader'i kurup oyunu ilk kez çalıştırdıktan sonra oyun klasörünüzün içinde Mods isimli yeni bir klasör oluşacaktır. Rar dosyasının içindekileri bu klasöre çıkartın.
+2. **Yükleyiciyi Çalıştırın**  
+   `TingTR_Installer.exe` dosyasına çift tıklayın.
 
-4. **Oyunu başlatın**  
-   Mod otomatik olarak gerekli dosyaları indirip uygun klasörlere yerleştirecektir.  
-   Dosyaların yüklendiğini görmek için oyun açılırken MelonLoader konsolunu kontrol edebilirsiniz.
+3. **Oyun Konumunu Tespit Edin**  
+   Yükleyici otomatik olarak Steam kütüphanenizdeki oyunu bulacaktır. Eğer bulunamazsa "Oyun Klasörünü Seç" butonuna basıp oyun klasörünüzü manuel seçin.
+
+4. **"Kur" Butonuna Basın**  
+   Yükleyici aşağıdakileri otomatik olarak yapacaktır:
+   - MelonLoader v0.7.2'yi indirir ve kurar
+   - TING Türkçe yamasını indirir ve `Mods` klasörüne kurar
+   - `Localization.csv` dosyasının otomatik yedeğini oluşturur
+
+5. **Oyunu Başlatın**  
+   Kurulum tamamlandıktan sonra oyunu başlatabilirsiniz.
+
+### Yöntem 2: Manuel Kurulum
+
+1. **MelonLoader'ı Yükleyin**  
+   [MelonLoader Releases](https://github.com/LavaGang/MelonLoader/releases/tag/v0.7.2) sayfasından `MelonLoader.x64.zip` dosyasını indirin ve oyun klasörünüze çıkarın.
+
+2. **Oyunu Bir Kez Çalıştırın**  
+   MelonLoader kurulumundan sonra oyunu bir kez başlatın. Bu, `Mods` klasörünü oluşturacaktır.
+
+3. **Mod Dosyasını İndirin**  
+   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases/latest) `Mods.rar` dosyasını indirin.
+
+4. **Modu Kurun**  
+   `Mods.rar` dosyasının içindekileri oyun klasörünüzdeki `Mods` klasörüne çıkarın.
+
+5. **Oyunu Başlatın**  
+   Mod otomatik olarak gerekli dosyaları indirecek ve yerleştirecektir.
+
+---
+
+## Kaldırma
+
+- **Yükleyici ile**: "Kaldır" butonuna basın. MelonLoader, mod dosyaları kaldırılacak ve `Localization.csv` dosyası yedekten geri yüklenecektir.
+- **Manuel olarak**: `MelonLoader`, `Mods`, `Plugins`, `UserData`, `UserLibs` klasörlerini ve `version.dll` dosyasını silin.
 
 ---
 
@@ -28,5 +59,4 @@
 - Mod ilk çalıştırmada internet bağlantısı gerektirir.  
 - Dosyalar indirildikten sonra oyun otomatik olarak bunları kullanacaktır.  
 - Daha sonra mod, güncellemeleri kontrol edebilir ve eksik dosyaları tekrar indirebilir.  
-
----
+- Oyun kapalıyken yükleyiciyi çalıştırdığınızdan emin olun.
