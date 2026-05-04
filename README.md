@@ -37,7 +37,7 @@
    MelonLoader kurulumundan sonra oyunu bir kez başlatın. Bu, `Mods` klasörünü oluşturacaktır.
 
 3. **Mod Dosyasını İndirin**  
-   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases/latest) `Mods.rar` dosyasını indirin.
+   [Releases sayfasından](https://github.com/SkipperSkipTR/ting-tr/releases/1.0) `Mods.rar` dosyasını indirin.
 
 4. **Modu Kurun**  
    `Mods.rar` dosyasının içindekileri oyun klasörünüzdeki `Mods` klasörüne çıkarın.
