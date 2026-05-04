@@ -1,0 +1,15 @@
+# TingTR_Installer build output
+TingTR_Installer/TingTR_Installer/bin/
+TingTR_Installer/TingTR_Installer/obj/
+TingTR_Installer/TingTR_Installer/packages/
+
+# Visual Studio
+TingTR_Installer/TingTR_Installer/*.user
+TingTR_Installer/TingTR_Installer/*.suo
+TingTR_Installer/.vs/
+TingTR_Installer/TingTR_Installer/*.cache
+TingTR_Installer/TingTR_Installer/*.log
+
+# OS
+Thumbs.db
+.DS_Store
